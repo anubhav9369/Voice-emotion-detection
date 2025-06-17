@@ -1,7 +1,10 @@
 services:
   - type: web
-    name: voice-emotion-api
+    name: voice-emotion-detector
     env: python
     buildCommand: pip install -r requirements.txt
-    startCommand: python src/app.py
+    startCommand: gunicorn app:app
     plan: free
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.10.13
