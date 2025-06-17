@@ -1,28 +1,29 @@
-# Voice Emotion Detection 🎙️
+# 🎙️ Voice Emotion Detection
 
-This project detects human emotions (happy, sad, angry, neutral) from recorded voice using MFCC and an LSTM model in TensorFlow.
+This is a real-time voice emotion detection project built using Python, TensorFlow/Keras, Flask, and audio signal processing with MFCC features. It can record your voice, process it, and classify your emotion into one of: **neutral**, **happy**, **sad**, or **angry**.
 
-## Setup
-1. Clone repo
-2. `pip install -r requirements.txt`
-3. Download emotion dataset into `data/<emotion>` folders
+## 🔧 Features
 
-## Features
-- Real-time voice recording
-- Flask API for prediction
-- LSTM model trained on MFCC features
+- 🎤 Real-time voice recording
+- 🤖 Emotion prediction using trained LSTM model
+- 🌐 REST API built with Flask
+- 📊 Uses MFCC features extracted from audio
+- ✅ Supports `.wav` files for prediction
 
-## Usage
-1. Start Flask server: `python src/app.py`
-2. Record and predict: `python record_predict.py`
+## 🧠 Emotions Detected
 
-## Author
-Anubhav Verma
+- Neutral 😐  
+- Happy 😄  
+- Sad 😢  
+- Angry 😠  
 
-## License
-MIT License
+## 🛠️ Tech Stack
 
-## Acknowledgments
-- [Emotion Recognition Dataset](https://www.kaggle.com/msambare/voice-em
-otion-recognition-dataset)
-- [TensorFlow](https://www.tensorflow.org/)
+- Python
+- TensorFlow/Keras
+- Librosa
+- Flask
+- SoundDevice (for audio recording)
+
+## 📦 Folder Structure
+
