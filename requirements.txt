@@ -1,8 +1,8 @@
-tensorflow==2.11.0
+tensorflow==2.10.1
 numpy
 librosa
 sounddevice
-flask         # or fastapi & uvicorn
+flask
 gunicorn
 python-dotenv
 scikit-learn
