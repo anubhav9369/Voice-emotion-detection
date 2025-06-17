@@ -5,3 +5,4 @@ sounddevice
 flask         # or fastapi & uvicorn
 gunicorn
 python-dotenv
+scikit-learn
