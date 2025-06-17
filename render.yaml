@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: voice-emotion-api
+    env: docker
+    dockerfilePath: Dockerfile
+    plan: free
+    autoDeploy: true

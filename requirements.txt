@@ -1,0 +1,7 @@
+tensorflow>=2.12
+numpy
+librosa
+sounddevice
+flask         # or fastapi & uvicorn
+gunicorn
+python-dotenv
