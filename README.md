@@ -1,15 +1,11 @@
-# Voice Emotion Detection
+# Voice Emotion Detection 🎙️
+
+This project detects human emotions (happy, sad, angry, neutral) from recorded voice using MFCC and an LSTM model in TensorFlow.
 
 ## Setup
 1. Clone repo
 2. `pip install -r requirements.txt`
 3. Download emotion dataset into `data/<emotion>` folders
-
-## Training
-
-# Voice Emotion Detection 🎙️
-
-This project detects human emotions (happy, sad, angry, neutral) from recorded voice using MFCC and an LSTM model in TensorFlow.
 
 ## Features
 - Real-time voice recording
@@ -22,8 +18,10 @@ This project detects human emotions (happy, sad, angry, neutral) from recorded v
 
 ## Author
 Anubhav Verma
+
 ## License
 MIT License
+
 ## Acknowledgments
 - [Emotion Recognition Dataset](https://www.kaggle.com/msambare/voice-em
 otion-recognition-dataset)
