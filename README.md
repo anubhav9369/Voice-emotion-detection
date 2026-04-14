@@ -4,11 +4,6 @@ This is a real-time voice emotion detection project built using Python, TensorFl
 
 ## 🔧 Features
 
-- 🎤 Real-time voice recording
-- 🤖 Emotion prediction using trained LSTM model
-- 🌐 REST API built with Flask
-- 📊 Uses MFCC features extracted from audio
-- ✅ Supports `.wav` files for prediction
 
 ## 🧠 Emotions Detected
 
