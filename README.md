@@ -40,7 +40,7 @@ voice-emotion-detection/
 ├── README.md
 
 
-## 🚀 How to Run
+## How to Run
 
 ### 1. Train the Model (Optional if model already trained)
 ``bash``
