@@ -1,4 +1,4 @@
-# 🎙️ Voice Emotion Detection
+# Voice Emotion Detection
 
 This is a real-time voice emotion detection project built using Python, TensorFlow/Keras, Flask, and audio signal processing with MFCC features. It can record your voice, process it, and classify your emotion into one of: **neutral**, **happy**, **sad**, or **angry**.
 
@@ -59,7 +59,7 @@ Copy
 Edit
 python record_predict.py
 
-## 🧪 Sample Output
+## Sample Output
 css
 Copy
 Edit
