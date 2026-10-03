@@ -43,26 +43,23 @@ voice-emotion-detection/
 ## How to Run
 
 ### 1. Train the Model (Optional if model already trained)
-``bash``
+```bash
 cd src
 python train.py
+```
 
 ### 2. Start the Flask Server
-bash
-Copy
-Edit
+```bash
 python app.py
+```
 
 ### 3. Record and Predict Emotion
-bash
-Copy
-Edit
+```bash
 python record_predict.py
+```
 
 ## Sample Output
-css
-Copy
-Edit
+```
 🎙️ Speak now... Recording for 3 seconds
 ✅ Recording saved as recorded.wav
 📤 Sending to model for prediction...
